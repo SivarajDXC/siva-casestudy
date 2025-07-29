@@ -74,9 +74,9 @@ class AnswerEvaluator:
         #     azure_endpoint=azure_config['endpoint']
         # )
         self.azure_client = AzureOpenAI(
-            api_key="5EkdCHDznt51Ex2dxAw47Z0l3ynPSzCql1vFIh6QL2ufOzLWzW4RJQQJ99BAACYeBjFXJ3w3AAABACOG7bRQ",
-            api_version="2024-08-01-preview",
-            azure_endpoint="https://cog-teched-lemw9jvshy.openai.azure.com"
+            api_key="",
+            api_version="",
+            azure_endpoint=""
         )
         self.text_processor = None
         self.evaluation_results = []
